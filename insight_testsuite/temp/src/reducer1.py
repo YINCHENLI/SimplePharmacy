@@ -7,7 +7,7 @@ for line in sys.stdin:
     line = line.strip()  
     drug, cost = line.split('\t',1)  
     try:  
-        cost = float(cost)  
+        cost = int(cost)  
     except ValueError:  
         continue  
     if current_drug == drug:  
