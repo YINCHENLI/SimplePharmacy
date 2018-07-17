@@ -22,6 +22,5 @@ for line in sys.stdin:
         current_num = 1
  
 
-
 if current_drug == drug:  
     print('%s,%s,%s' % (current_drug, current_num, current_cost))  
